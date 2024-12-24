@@ -1,0 +1,28 @@
+## Các bước thực hiện:
+
+### 1. Tạo môi trường ảo Python (phiên bản 3.8.16) với Conda:
+
+Chạy lệnh sau để tạo môi trường ảo:
+conda create -n ocr_env python=3.8.16
+
+### 2. Kích hoạt môi trường ảo:
+
+Chạy lệnh sau để kích hoạt môi trường ảo:
+conda activate ocr_env
+
+### 3. Cài đặt thư viện từ requirements.txt:
+
+Chạy lệnh sau để cài đặt tất cả thư viện cần thiết:
+pip install -r requirements.txt
+
+### 4. Chạy lần lượt các file xử lý dữ liệu trong thư mục src:
+
+Thu thập dữ liệu:
+cd Crawl_data
+python src/collect_data.py
+
+Làm sạch dữ liệu:
+python src/clean_data.py
+
+Định dạng dữ liệu:
+python src/format_data.py

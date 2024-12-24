@@ -1,0 +1,1 @@
+{"train/loss":1.461358,"_runtime":4425.553100771,"train/SARLoss":0.232954,"_step":3600,"train/norm_edit_dis":0.967166,"train/CTCLoss":1.220483,"_timestamp":1.7349683340130765e+09,"eval/best_acc":0.8233333058888899,"_wandb":{"runtime":4425},"train/acc":0.667969,"eval/norm_edit_dis":0.9733333342222222,"train/lr":3e-06,"eval/acc":0.8066666397777787,"eval/fps":826.700585520714}

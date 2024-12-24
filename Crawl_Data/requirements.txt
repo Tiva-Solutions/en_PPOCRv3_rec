@@ -1,0 +1,4 @@
+paddlepaddle-gpu==3.0.0b1
+paddleocr>=2.8.1
+ultralytics
+yaml
